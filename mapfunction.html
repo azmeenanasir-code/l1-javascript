@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>map function</title>
+</head>
+<body>
+    <p id="product_value"></p>
+    <script>
+
+        var numbers = [112, 9, 78, 34];
+
+        function myFunction(num) {
+            return num * 10;
+        }
+
+        var newarray = numbers.map(myFunction);
+        document.getElementById("product_value").innerHTML = newarray;
+    </script>
+</body>
+</html>
